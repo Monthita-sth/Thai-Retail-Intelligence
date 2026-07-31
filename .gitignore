@@ -1,0 +1,36 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large generated data
+data/raw/*.csv
+data/raw/*.xlsx
+data/*.sqlite
+data/processed/
+
+# Model files
+models/*.keras
+models/*.h5
+
+# PySpark
+spark-warehouse/
