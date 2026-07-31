@@ -57,16 +57,23 @@
 Thai-Retail-Intelligence/
 │
 ├── config/                 # Configuration files
-├── dashboard/              # Power BI (.pbix) files
+├── dashboard/              # Power BI (.pbix) files (Will be added)
 ├── data/
 │   ├── raw/                # Raw Excel files (.xlsx)
-│   └── processed/          # Transformed CSVs ready for Power BI & AI
+│   ├── processed/          # Transformed CSVs ready for Power BI & AI
+│   └── retail_db.sqlite    # SQLite Database
 ├── images/                 # Dashboard screenshots for README
-├── models/                 # Saved TensorFlow Keras models (.keras)
+├── models/                 
+│   └── sales_lstm.keras    # Saved TensorFlow LSTM model
 ├── notebooks/              # Jupyter Notebooks for EDA
 ├── scripts/                # Python scripts for ETL and Training
-│   ├── load_data.py        # Load Excel to SQLite
-│   ├── transform_data.py   # SQL Star Schema transformation
-│   ├── pandas_etl.py       # Daily sales aggregation
+│   ├── pyspark_etl.py      # Daily sales aggregation (Pandas implementation)
 │   └── train_forecast.py   # TensorFlow LSTM training script
+├── src/                    # Source code for data pipelines
+│   ├── data_generation/    
+│   │   └── generate_data.py   # Script to generate mock retail data
+│   └── database/           
+│       ├── load_data.py       # Load Excel to SQLite
+│       ├── transform_data.py  # SQL Star Schema transformation
+│       └── export_to_powerbi.py # Export processed tables to CSV
 └── README.md               # Project documentation
