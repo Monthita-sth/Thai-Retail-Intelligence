@@ -101,9 +101,9 @@ python scripts/train_forecast.py`
 ### 4.View Dashboard:
 Open dashboard/Thai_Retail_Dashboard.pbix in Power BI Desktop.
 
-## 👨‍💻 Author: Monthita Songthong
-* ### 🎓 Education: 4rd Year Computer Science Student, Faculty of Science, Prince of Songkla University
-### 📫 Connect: 
-* ### Email: monthita.sth@gmail.com
-* ### LinkedIn: linkedin.com/in/your-profile (ยังไม่มี)
-* ### GitHub: [github.com/Monthita-sth](https://github.com/Monthita-sth)
+### 👨‍💻 Author: Monthita Songthong
+* #### 🎓 Education: 4rd Year Computer Science Student, Faculty of Science, Prince of Songkla University
+#### 📫 Connect: 
+* #### Email: monthita.sth@gmail.com
+* #### LinkedIn: linkedin.com/in/your-profile (ยังไม่มี)
+* #### GitHub: [github.com/Monthita-sth](https://github.com/Monthita-sth)
