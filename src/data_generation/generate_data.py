@@ -10,7 +10,7 @@ N_CUSTOMERS = 50_000
 N_PRODUCTS = 1_000
 N_ORDERS = 300_000
 START_DATE = "2024-01-01"
-END_DATE = "2025-12-31"
+END_DATE = "2026-07-31"
 
 rng = np.random.default_rng(SEED)
 
@@ -120,7 +120,7 @@ def generate_promotions():
     records = []
     promotion_counter = 1
 
-    for year in [2024, 2025]:
+    for year in [2024, 2025, 2026]:
         for month in range(1, 13):
             campaign_date = pd.Timestamp(year=year, month=month, day=month)
             records.append({
