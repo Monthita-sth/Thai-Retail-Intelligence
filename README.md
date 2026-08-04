@@ -63,12 +63,18 @@ Thai-Retail-Intelligence/
 `pip install pandas sqlite3 matplotlib seaborn tensorflow scikit-learn`
 
 ### 3.Execute the Data Pipeline in order:
-`python src/data_generation/generate_data.py 
-python src/database/load_data.py
-python src/database/transform_data.py
-python src/database/export_to_powerbi.py
-python scripts/pyspark_etl.py
-python scripts/train_forecast.py`
+`python src/data_generation/generate_data.py`
+
+`python src/database/load_data.py`
+
+`python src/database/transform_data.py`
+
+`python src/database/export_to_powerbi.py`
+
+`python scripts/pyspark_etl.py`
+
+`python scripts/train_forecast.py`
+
 
 ### 4.View Dashboard:
 Open dashboard/Thai_Retail_Dashboard.pbix in Power BI Desktop.
